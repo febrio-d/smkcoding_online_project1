@@ -173,19 +173,34 @@
 
         </LinearLayout>
 
-        <Button
-            android:id="@+id/btnEditName"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
-            android:text="EDIT NAMA"/>
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btnEditName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="EDIT NAME"/>
 
         <Button
             android:id="@+id/btnDial"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="16dp"
-            android:text="TELEPON" />
+            android:layout_margin="8dp"
+            android:text="DIAL"/>
+
+        <Button
+            android:id="@+id/btnAbout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="ABOUT"/>
+    </LinearLayout>
 
     </LinearLayout>
 

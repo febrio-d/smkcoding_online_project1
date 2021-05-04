@@ -1,2 +1,2 @@
 # smkcoding_online_project1
-Android Kotlin
+SMKCoding Online 2020 Challenge 1
